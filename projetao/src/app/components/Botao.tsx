@@ -3,10 +3,10 @@ interface BotaoProps{
     texto: string
 }
 
-export default function (props: any) {
+export default function (props: BotaoProps) {
     return(
-        <button className='rounded-xl w-32 h-14 text-white bg-[#E85900] text-xl font-medium'>
-            {props.children}
+        <button className={`rounded-xl ${props.tamanho} text-white bg-[#E85900] text-xl font-medium`}>
+            {props.texto}
         </button>
     )
 }

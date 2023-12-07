@@ -1,11 +1,17 @@
+import Botao from "../components/Botao";
+import Entrada from "../components/Entrada";
+
 export default function Cadastro(){
     return (
-        <div>
-            <h1>Cadastro</h1>
+        <div className=" flex justify-center items-center">
+            <h1 className="text-6xl font-bold m-12">Cadastro</h1>
 
-            <input type='text' name='E-mail' className=' w-80 h-14  mb-8 placeholder-shown: border-gray-600 rounded-lg focus: ring-1 ring-[#668EF4] outline-[#3D63C4]' placeholder='    Insira seu email ou CPF'></input>
+            <div>
+                <Entrada texto="   Nome" tamanho=" w-80 h-12"></Entrada>
 
-            <button className='rounded-xl w-32 h-14 text-white bg-[#E85900] text-xl font-medium'>Entrar</button>
+                <Botao texto="Cadastrar" tamanho=" w-80 h-14"></Botao>
+            </div>
+            
         </div>
     )
 }
