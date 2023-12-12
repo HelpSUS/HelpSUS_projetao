@@ -22,7 +22,11 @@ export default function Cadastro(){
                     </div>
 
                     <Botao texto="Cadastrar" tamanho=" w-80 h-14" margem=" mt-8"></Botao>
-                    <Link href={'../'} className='text-[#3D63C4] mt-4'>Entrar</Link>
+                    <div className=" flex flex-row space-x-2 mt-2">
+                        <p>Já tem cadastro?</p>
+                        <Link href={'../'} className='text-[#3D63C4]'>Entrar</Link>
+                    </div>
+                    
                 </div>
 
                 <div className="flex flex-col">

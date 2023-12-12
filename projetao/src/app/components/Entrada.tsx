@@ -5,6 +5,6 @@ interface EntradaProps{
 
 export default function (props: EntradaProps) {
     return(
-        <input type='text' name={` ${props.texto} `} className={` ${props.tamanho} placeholder-shown: border-gray-600 rounded-lg focus: ring-1 ring-[#668EF4] outline-[#3D63C4]' `} placeholder={` ${props.texto} `}></input>
+        <input type='text' name={` ${props.texto} `} className={` ${props.tamanho} placeholder-shown: border-gray-600 rounded-lg focus: ring-1 ring-[#668EF4] outline-[#3D63C4]'`} placeholder={` ${props.texto} `}></input>
     )
 }
