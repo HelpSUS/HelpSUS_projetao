@@ -1,5 +1,6 @@
 import Botao from "../components/Botao";
 import Entrada from "../components/Entrada";
+import MedCard from "../components/MedCard";
 
 export default function Formulario(){
     return (
@@ -41,14 +42,22 @@ export default function Formulario(){
                         </div>
                     </div>
                 </div>
-                <p className="text-xl ">Médicos - Atendimentos pendentes</p>
-                <div></div>
+                
+                <div className="flex flex-col space-y-4">
+                    <p className="text-xl mb-2">Médicos - Atendimentos pendentes</p>
+                    <MedCard texto='Médico 1' numero='1'></MedCard>
+                    <MedCard texto='Médico 2' numero='1'></MedCard>
+                    <MedCard texto='Médico 3' numero='2'></MedCard>
+                    <MedCard texto='Médico 4' numero='4'></MedCard>
+                    <MedCard texto='Médico 5' numero='6'></MedCard>
+                </div>
+                
             </div>
             <div className="flex justify-between mx-40 my-36">
-                <Botao texto="<- Sair da sessão" tamanho="w-48 h-12"></Botao>
+                <Botao texto="<- Sair da sessão" tamanho="w-48 h-12" sai></Botao>
                 <Botao texto="Encaminhar atendimento" tamanho="w-72 h-12"></Botao>
             </div>
-            
+
         </div>
             
     )
