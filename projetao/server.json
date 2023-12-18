@@ -1,0 +1,11 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Usuario 1",
+      "cpf": "12312312312",
+      "password": "senha123",
+      "type": "callReceiver"
+    }
+  ]
+}
