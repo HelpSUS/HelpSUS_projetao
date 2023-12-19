@@ -2,7 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import Botao from './components/Botao'
 import Entrada from './components/Entrada'
-import MedCard from './components/MedCard'
+
 
 export default function Home() {
   return (
