@@ -22,7 +22,8 @@ export default function Formulario(){
 
                         <div className="flex flex-col">
                             <p className="text-xl mb-2 ">Situação:</p>
-                            <Entrada texto=" " tamanho="w-[30rem] h-72"></Entrada>
+                            {/* <Entrada texto=" " tamanho="w-[30rem] h-72"></Entrada> */}
+                            <textarea className="w-[30rem] h-72 placeholder-shown: border-gray-600 rounded-lg focus: ring-1 ring-[#668EF4] outline-[#3D63C4] flex items-start"></textarea>
                         </div>
                     </div>
                     <div className="flex flex-col">
