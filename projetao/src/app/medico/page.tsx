@@ -10,19 +10,19 @@ export default function() {
                 <div className=" flex flex-col gap-4 ">
                     <h2 className=" text-2xl ">Atendimentos Pessoais</h2>
 
-                    <Atendimento></Atendimento>
-                    <Atendimento></Atendimento>
-                    <Atendimento></Atendimento>
+                    <Atendimento idade="19" sexo="M" n_vitimas="1" descricao="bateu a moto em um carro em movimento, vitima se encontra desacordada .  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis"></Atendimento>
+                    <Atendimento idade="24" sexo="M" n_vitimas="1" descricao="bateu a moto em um carro em movimento, vitima se encontra desacordada .  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis"></Atendimento>
+                    <Atendimento idade="34" sexo="F" n_vitimas="2" descricao="bateu a moto em um carro em movimento, vitima se encontra desacordada .  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis"></Atendimento>
                 </div>
 
                 <div className="flex flex-col gap-4">
                     <h2 className=" text-2xl ">Ambulâncias</h2>
-                    <Cardinfo></Cardinfo>
-                    <Cardinfo></Cardinfo>
+                    <Cardinfo nome="1" cidade="Recife, PE" bairro="Dois Irmãos" disponível></Cardinfo>
+                    <Cardinfo nome="2" cidade="Recife, PE" bairro="Boa Viagem"></Cardinfo>
 
                     <h2 className=" text-2xl ">Hospitais</h2>
-                    <Cardinfo></Cardinfo>
-                    <Cardinfo></Cardinfo>
+                    <Cardinfo nome="3" cidade="Recife, PE" bairro="Varzea"></Cardinfo>
+                    <Cardinfo nome="4" cidade="Recife, PE" bairro="Ipsep" disponível></Cardinfo>
                 </div>
             </div>  
             <div className="flex flex-row justify-between mx-40 my-28 ">
