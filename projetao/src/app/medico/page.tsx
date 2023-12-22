@@ -7,7 +7,7 @@ export default function() {
         <div>
             <h1 className="text-5xl font-bold flex justify-center items-center my-10">Solicitações</h1>
             <div className="flex flex-row justify-evenly">
-                <div className=" flex flex-col gap-4 overflow-scroll h-[25rem]">
+                <div className=" flex flex-col gap-4 overflow-y-scroll h-[25rem] w-[42rem]">
                     <h2 className=" text-2xl ">Atendimentos Pessoais</h2>
 
                     <Atendimento idade="19" sexo="M" n_vitimas="1" descricao="bateu a moto em um carro em movimento, vitima se encontra desacordada .  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis"></Atendimento>
