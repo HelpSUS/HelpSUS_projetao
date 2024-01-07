@@ -1,5 +1,5 @@
-import { useAuthContext } from "@/contexts/AuthContext";
 import React from "react";
+import { useAuthContext } from "@/contexts/AuthContext";
 
 export default function CallReceiverHome() {
   const { logout } = useAuthContext();

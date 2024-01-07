@@ -37,6 +37,7 @@ export function AuthProvider(props: PropsWithChildren) {
       .catch((err) => {
         console.warn(err);
       });
+    setIsLoading(false);
   }
 
   async function logout(): Promise<void> {

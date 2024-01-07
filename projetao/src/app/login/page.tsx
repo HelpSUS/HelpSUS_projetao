@@ -19,6 +19,8 @@ export default function Login() {
     await login(cpf, password);
     if (!token) setError("Usuário não encontrado");
     else {
+      setCpf("");
+      setPassword("");
       console.log("userProfile", userProfile);
       switch (userProfile) {
         case "callReceiver":
