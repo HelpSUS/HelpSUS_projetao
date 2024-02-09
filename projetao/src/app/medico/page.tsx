@@ -1,8 +1,10 @@
 import Atendimento from "@/components/Atendimento";
 import Botao from "@/components/Botao";
 import Cardinfo from "@/components/Cardinfo";
+import { ModalBt } from "@/components/ModalBt";
 
-export function DoctorHome() {
+
+export default function DoctorHome() {
   return (
     <div>
       <h1 className="text-5xl font-bold flex justify-center items-center my-10">
@@ -55,10 +57,11 @@ export function DoctorHome() {
       <div className="flex flex-row justify-between mx-40 my-28 ">
         <Botao texto="<- Sair da sessão" tamanho="w-48 h-12" sai></Botao>
         <div className="flex flex-col items-center gap-4 ">
-          <Botao texto="Enviar atendimento" tamanho="w-52 h-12"></Botao>
-          <Botao texto=" Não enviar atendimento" tamanho="w-64 h-12"></Botao>
+          <ModalBt texto ='Enviar atendimento' confirmatxt="Atendimento enviado com sucesso!" tamanho='w-52 h-12'></ModalBt>
+          <ModalBt texto ='Não enviar atendimento' confirmatxt="Atendimento negado com sucesso" tamanho='w-64 h-12'></ModalBt>
         </div>
       </div>
     </div>
   );
 }
+
