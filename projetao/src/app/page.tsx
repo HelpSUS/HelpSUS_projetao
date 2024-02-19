@@ -3,7 +3,7 @@
 import { useAuthContext } from "@/contexts/AuthContext";
 import Login from "./login/page";
 import CallReceiverHome from "./callReceiverHome/page";
-import { DoctorHome } from "./medico/page";
+import DoctorHome  from "./medico/page";
 
 export default function App() {
   const { token, userProfile } = useAuthContext();
