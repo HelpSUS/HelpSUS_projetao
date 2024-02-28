@@ -55,7 +55,7 @@ export default function DoctorHome() {
         </div>
       </div>
       <div className="flex flex-row justify-between mx-40 my-28 ">
-        <Botao texto="<- Sair da sessão" tamanho="w-48 h-12" sai></Botao>
+        <a href="/"><Botao texto="<- Sair da sessão" tamanho="w-48 h-12" sai></Botao></a>
         <div className="flex flex-col items-center gap-4 ">
           <ModalBt texto ='Enviar atendimento' confirmatxt="Atendimento enviado com sucesso!" tamanho='w-52 h-12'></ModalBt>
           <ModalBt texto ='Não enviar atendimento' confirmatxt="Atendimento negado com sucesso" tamanho='w-64 h-12'></ModalBt>

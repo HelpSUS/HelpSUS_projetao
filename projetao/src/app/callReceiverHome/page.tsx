@@ -3,6 +3,7 @@ import { useAuthContext } from "@/contexts/AuthContext";
 import Entrada from "@/components/Entrada";
 import MedCard from "@/components/MedCard";
 import Botao from "@/components/Botao";
+import { ModalBt } from "@/components/ModalBt";
 
 export default function CallReceiverHome() {
   const { logout } = useAuthContext();
@@ -69,7 +70,7 @@ export default function CallReceiverHome() {
           sai
           onClick={handleOnClick}
         ></Botao>
-        <Botao texto="Encaminhar atendimento" tamanho="w-72 h-12"></Botao>
+        <ModalBt texto ='Encaminhar atendimento' confirmatxt="Atendimento encaminhado com sucesso!" tamanho='w-64 h-12'></ModalBt>
       </div>
     </div>
   );
