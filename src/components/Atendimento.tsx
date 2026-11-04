@@ -5,7 +5,7 @@ interface AtendimentoProps {
   n_vitimas: string;
 }
 
-export default function (props: AtendimentoProps) {
+export default function Atendimento(props: AtendimentoProps) {
   return (
     <button className="flex flex-col gap-2 justify-center items-baseline bg-[#ACD4F1] w-[40rem] h-[11rem] rounded-lg focus:outline-none focus:ring focus:ring-[#3D63C4]">
       <p className="mx-4 mt-4 text-xs text-left ">

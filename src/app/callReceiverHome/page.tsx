@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import { useAuthContext } from "@/contexts/AuthContext";
 import Entrada from "@/components/Entrada";

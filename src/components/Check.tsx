@@ -3,7 +3,7 @@ interface EntradaProps{
     margem?: string
 }
 
-export default function (props: EntradaProps) {
+export default function Check(props: EntradaProps) {
     return(
         <div>
             <input type="checkbox" id="seleção" value={`${props.texto}`} className={`${props.margem}

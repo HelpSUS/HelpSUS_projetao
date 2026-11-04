@@ -5,7 +5,7 @@ interface EntradaProps extends React.InputHTMLAttributes<HTMLInputElement> {
   texto: string;
 }
 
-export default function ({ tamanho, texto, ...rest }: EntradaProps) {
+export default function Entrada({ tamanho, texto, ...rest }: EntradaProps) {
   return (
     <input
       name={` ${texto} `}

@@ -5,7 +5,7 @@ interface CardProps {
   disponível?: boolean;
 }
 
-export default function (props: CardProps) {
+export default function Cardinfo(props: CardProps) {
   return (
     <div className=" flex flex-row justify-between items-center w-96 h-11 bg-[#ACD4F1] rounded-lg ">
       <p className="mx-4 font-black text-xs">Ambulância {props.nome}</p>

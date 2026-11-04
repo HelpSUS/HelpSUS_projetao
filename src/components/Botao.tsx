@@ -5,7 +5,7 @@ interface BotaoProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   sai?: boolean;
 }
 
-export default function ({ tamanho, margem, texto, sai, ...rest }: BotaoProps) {
+export default function Botao({ tamanho, margem, texto, sai, ...rest }: BotaoProps) {
   return (
     <button
       className={`rounded-xl ${tamanho} ${margem} text-white ${
