@@ -6,7 +6,13 @@ e médicos, permitindo registrar solicitações, consultar atendimentos e indica
 a disponibilidade de ambulâncias e hospitais.
 
 Este projeto foi desenvolvido na disciplina de Projeto de Desenvolvimento de
-Software da UFRPE.
+Software da UFRPE. 
+
+O projeto não está completamente implementado o foco maior foi na elaboração do negócio, sua viabilidade como produto e teve implementação focada em um MVP para apresentação.
+
+## Protótipo
+- Interessados podem visualizar o protótipo feito pelo time no [Figma](https://www.figma.com/design/8aASWfPQwJfIILoTyifzCe/MVP?node-id=0-1&t=fJWCjzlPSNf4jHMV-1)
+- E também os slide do nosso Pitch de apresentação final do projeto [Slides](https://www.figma.com/deck/BqosfgCUu7IvsPfBhaqJXV)
 
 ## Tecnologias
 
